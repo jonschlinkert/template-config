@@ -1,0 +1,58 @@
+{
+  "name": "template-config",
+  "description": "Adds declarative configuration functionality to Template.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/template-config",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/template-config",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/template-config/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "assemble",
+    "boilerplate",
+    "config",
+    "configuration",
+    "docs",
+    "document",
+    "documentation",
+    "generate",
+    "scaffold",
+    "site",
+    "snippet",
+    "static",
+    "template",
+    "verb"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "snippet",
+        "template",
+        "scaffold",
+        "assemble",
+        "boilerplate",
+        "generate",
+        "verb"
+      ]
+    }
+  }
+}
