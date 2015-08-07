@@ -20,6 +20,12 @@ In the following example, `app` represents the latest version of any template.js
 var config = require('template-config');
 var app = require('template');
 
+// add a `config` method to `app`
+app.mixin('config', config);
+
+// the following config will automatically create the
+// specified template collections, and load files from
+// the provided directories based on the glob patterns
 app.config({
   base: 'fixtures/templates',
   renameKey: function (key) {
