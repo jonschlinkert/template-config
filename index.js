@@ -31,7 +31,9 @@ module.exports = function (app) {
 
         opts.cwd = opts.cwd || settings.base || key;
         opts.cwd = path.resolve(cwd, opts.cwd);
-        app.create(key, opts);
+        if (typeof app[key] !== 'function') {
+          app.create(key, opts);
+        }
         app[key](settings.patterns, opts);
       }
     }
