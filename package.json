@@ -1,7 +1,7 @@
 {
   "name": "template-config",
   "description": "Adds declarative configuration functionality to Template.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/template-config",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/template-config",
@@ -20,11 +20,14 @@
     "test": "mocha"
   },
   "dependencies": {
+    "easy-renamer": "^0.2.0",
     "extend-shallow": "^2.0.1"
   },
   "devDependencies": {
+    "glob": "^5.0.14",
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "template": "jonschlinkert/template#0.17.0-prep"
   },
   "keywords": [
     "assemble",
